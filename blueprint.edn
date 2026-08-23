@@ -1,0 +1,20 @@
+{:itonami.blueprint/id "cloud-itonami-isic-7120-cyberassurance"
+ :itonami.blueprint/name "Cybersecurity assurance and vulnerability assessment"
+ :itonami.blueprint/isic-rev5 "7120"
+ :itonami.blueprint/domain :professional/technical-testing
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:professional-standards :transparency :supply-chain-integrity]
+ :itonami.blueprint/governor :assurance-integrity-governor
+ :itonami.blueprint/required-technologies [:identity :audit-ledger :sbom :advisory-database]
+ :itonami.blueprint/optional-technologies [:llm]
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/maturity :implemented
+ ;; ISIC 7120 already holds a metrology testing lab
+ ;; (`cloud-itonami-isic-7120`). This is the second actor on the same code,
+ ;; using the `<isic>-<slug>` shape the fleet already carries in ten places.
+ ;; The boundary between them: that one measures physical samples against a
+ ;; protocol tolerance, this one measures an information system against an
+ ;; assurance framework. Neither is accredited by existing.
+ :itonami.blueprint/sibling "cloud-itonami-isic-7120"
+ :itonami.blueprint/actuation-events [:attestation/issue]}
