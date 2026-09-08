@@ -19,7 +19,7 @@
   **No claim that this actor is accredited.** Nothing here makes the deployer
   a CPA firm or a certification body. `:framework/issued-by` records who
   actually gets to sign, precisely so the actor cannot be mistaken for them."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def frameworks
   "Framework id -> what it is, who may issue against it, and what kind of
