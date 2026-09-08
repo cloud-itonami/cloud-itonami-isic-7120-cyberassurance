@@ -12,7 +12,7 @@
   evidence strength, dependency coverage -- are ADVISORY. Where they disagree,
   the governor wins and the disagreement is worth recording, because a model
   that consistently overstates readiness is a finding about the model."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [cyberassurance.facts :as facts]
             [cyberassurance.registry :as registry]))
 

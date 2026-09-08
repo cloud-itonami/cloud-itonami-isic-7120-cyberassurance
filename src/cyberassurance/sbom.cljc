@@ -25,7 +25,7 @@
   this namespace is pure so that its output is a function of its input alone
   -- two runs over the same dependency set produce byte-identical documents,
   which is what makes the attestation in amu mean anything."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ^:private spec-version "1.5")
 

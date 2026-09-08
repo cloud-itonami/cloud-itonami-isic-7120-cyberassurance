@@ -5,7 +5,7 @@
 
   Every function here answers one of the four questions that, measured on
   2026-08-23, an assurance opinion in this workspace actually turned on."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [cyberassurance.facts :as facts]))
 
 ;; ── 1. Is the boundary drawable at all? ────────────────────────────────────

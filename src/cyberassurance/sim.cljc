@@ -7,7 +7,7 @@
   below is a REAL engagement shape taken from a measurement in this
   workspace on 2026-08-23, so the holds are the ones that actually occur
   rather than ones invented to make the governor look busy."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [cyberassurance.assurellm :as llm]
             [cyberassurance.registry :as registry]
             [cyberassurance.store :as store]))
