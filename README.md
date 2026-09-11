@@ -122,9 +122,9 @@ prevent. Assess against it and say so.
 ## Run
 
 ```bash
-clojure -M:dev:run     # one clean lifecycle + six HARD-hold cases
-clojure -M:test        # governor contract · phase invariants · store · SBOM
-clojure -M:lint        # clj-kondo
+kbb -M:dev:run     # one clean lifecycle + six HARD-hold cases
+kbb -M:test        # governor contract · phase invariants · store · SBOM
+kbb -M:lint        # clj-kondo
 ```
 
 Measured 2026-08-23: 25 tests, 70 assertions, 0 failures.
