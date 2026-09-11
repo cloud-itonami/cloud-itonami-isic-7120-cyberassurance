@@ -1,7 +1,7 @@
 (ns cyberassurance.sim
   "One clean lifecycle and six HARD-hold cases, walked through the actor.
 
-  Run it: `clojure -M:dev:run`
+  Run it: `kbb -M:dev:run`
 
   The point of the simulation is not that it prints. It is that every case
   below is a REAL engagement shape taken from a measurement in this
