@@ -10,7 +10,7 @@
 
   So each test below also asserts a CONTROL: the same engagement with only the
   one defect repaired must stop producing that violation."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [cyberassurance.assurellm :as llm]
             [cyberassurance.facts :as facts]
             [cyberassurance.governor :as governor]
